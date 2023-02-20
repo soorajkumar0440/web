@@ -1,0 +1,546 @@
+#header .fixed-top{
+    box-shadow: 0.0.125rem 0.675rem rgb(0 0 0 / 5);
+    margin-bottom: 120px;
+    padding-bottom: 0px;
+    margin-bottom: 120px;
+  }
+  #header .navbar-nav .nav-item .nav-link{
+    color: var(--text-black);
+    padding: 0.5rem 1rem; 
+    text-align: center;
+  }
+  #header .navbar-nav .nav-item .nav-link:hover,
+  #header .navbar-nav .nav-item .nav-link.active{
+    color: red;
+  }
+  .home .home-banner-1,
+  .home .home-banner-2{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 90% center;
+    min-height: 650px;
+    position: relative;
+  }
+  .home .home-banner-1{
+    background-image: url(images/p10.jpg);
+  }
+  .home .home-banner-2{
+    background-image: url(images/p12.jpg);
+  }
+  .home .home-banner .home-banner-text-1{
+    position: absolute;
+    top:50%;
+    left:20%;
+    color: black;
+  }
+  .home .home-banner .home-banner-text-2{
+    position: absolute;
+    top:45%;
+    left:14%;
+    color:white;
+  }
+  .box{
+    box-shadow: 0 0 20px 2px rgba(0, 0, 0, - 1);
+   overflow: hidden;
+  }
+  .box img{
+    display: block;
+    /* width: 100%; */
+    border-radius: 7px ;
+    
+  }
+  .box:hover{
+    transform: scale(1.1);
+    /* z-index: 0; */
+    overflow: hidden;
+    transition: 1s;
+  }
+  .zm:hover{
+    transform: scale(1.1);
+    display: block;
+    transition: 1s;
+    overflow: hidden;
+  }
+  .s:hover{
+    transform: scale(1.1);
+    display: block;
+    transition: 1s;
+    overflow: hidden;
+  }
+  .a:hover{
+    transform: scale(1.1);
+    display: block;
+    transition: 1s;
+    overflow: hidden;
+  }
+  .b:hover{
+    transform: scale(1.1);
+    display: block;
+    transition: 1s;
+    overflow: hidden;
+  }
+.products{
+  padding-top: 8.75rem;
+ 
+}
+.products a{
+  text-decoration: none;
+  color: black;
+} 
+.product-list .product-image img{
+  transition: all 500ms ease-in-out;
+}
+.product-list .product-image .product-image-secondary{
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}  
+.product-list .product-image:hover .product-image-secondary{
+  opacity: 1;
+}
+.home .home-banner-5,
+  .home .home-banner-6{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 90% center;
+    min-height: 630px;
+    position: relative;
+  }
+  .home .home-banner-5{
+    background-image: url(images/maks.jpg);
+  }
+  .home .home-banner-6{
+    background-image: url(images/m2.jpg);
+  }
+  .home .home-banner .home-banner-text-5{
+    position: absolute;
+    top:60%;
+    left:70%;
+    color: rgb(255, 41, 41);
+  }
+  .home .home-banner .home-banner-text-6{
+    position: absolute;
+    top:10%;
+    left: 80%;
+    color:black;}
+    .os{
+      margin: 0;
+      padding: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      /* height: 90vh; */
+      background: 0;
+    }
+    .card-a{
+      width: 21em;
+      height: 25em;
+      position: relative;
+      margin: 0;
+      background-image: url('images/m5.jpg');
+      background-size: cover;
+      color: #fff;
+      border-radius: 0px;
+      box-shadow: #000 0px 11px 15px 0px;
+    }
+    .card-a .overlay{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 21rem;
+      height: 100%;
+      background: rgba(255, 123, 0, 0.8);
+      opacity: 0;
+      transition: 0.1s;
+      border-radius: 0px;
+    }
+    .card-a:hover .overlay{
+      opacity: 1;
+    }
+    .card-a .btn, .card h1{
+      transition: 0.1s;
+      transform: translateY(-20px);
+    }
+    .card-a:hover .btn .card-a:hover h1 {
+      transform: translateY(0);
+    }
+    .card-b{
+      width: 21em;
+      height: 25em;
+      position: relative;
+      margin: 0;
+      background-image: url('images/m7.jpg');
+      background-size: cover;
+      color: #fff;
+      border-radius: 0px;
+      box-shadow: #000 0px 11px 15px 0px;
+    }
+    .card-b .overlay{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 21rem;
+      height: 100%;
+      background: rgba(255, 123, 0, 0.8);
+      opacity: 0;
+      transition: 0.0s;
+      border-radius: 0.1px;
+    }
+    .card-b:hover .overlay{
+      opacity: 1;
+    }
+    .card-b .btn, .card h1{
+      transition: 0.1s;
+      transform: translateY(-20px);
+    }
+    .card-b:hover .btn .card-b:hover h1 {
+      transform: translateY(0);
+    }
+    .card-c{
+      width: 21em;
+      height: 25em;
+      position: relative;
+      margin: 0;
+      background-image: url('images/m4.jpg');
+      background-size: cover;
+      color: #fff;
+      border-radius: 0px;
+      box-shadow: #000 0px 11px 15px 0px;
+    }
+    .card-c .overlay{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 21rem;
+      height: 100%;
+      background: rgba(255, 123, 0, 0.8);
+      opacity: 0;
+      transition: 0.1s;
+      border-radius: 0px;
+    }
+    .card-c:hover .overlay{
+      opacity: 1;
+    }
+    .card-c .btn, .card h1{
+      transition: 0.1s;
+      transform: translateY(-20px);
+    }
+    .card-c:hover .btn .card-c:hover h1 {
+      transform: translateY(0);
+    }
+    .card-d{
+      width: 21em;
+      height: 25em;
+      position: relative;
+      margin: 0;
+      background-image: url('images/m6.jpg');
+      background-size: cover;
+      color: #fff;
+      border-radius: 0px;
+      box-shadow: #000 0px 11px 15px 0px;
+    }
+    .card-d .overlay{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 21rem;
+      height: 100%;
+      background: rgba(53, 227, 233, 0.8);
+      opacity: 0;
+      transition: 0.1s;
+      border-radius: 0px;
+    }
+    .card-d:hover .overlay{
+      opacity: 1;
+    }
+    .card-d .btn, .card h1{
+      transition: 0.1s;
+      transform: translateY(-20px);
+    }
+    .card-d:hover .btn .card-d:hover h1 {
+      transform: translateY(0);
+    }
+    .card-e{
+      width: 21em;
+      height: 25em;
+      position: relative;
+      margin: 0;
+      background-image: url('images/m7.jpg');
+      background-size: cover;
+      color: #fff;
+      border-radius: 0px;
+      box-shadow: #000 0px 11px 15px 0px;
+    }
+    .card-e .overlay{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 21rem;
+      height: 100%;
+      background: rgba(115, 247, 97, 0.8);
+      opacity: 0;
+      transition: 0.1s;
+      border-radius: 0px;
+    }
+    .card-e:hover .overlay{
+      opacity: 1;
+    }
+    .card-e .btn, .card h1{
+      transition: 0.1s;
+      transform: translateY(-20px);
+    }
+    .card-e:hover .btn .card-e:hover h1 {
+      transform: translateY(0);
+    }
+    .card-f{
+      width: 21em;
+      height: 25em;
+      position: relative;
+      margin: 0;
+      background-image: url('images/m1.jpg');
+      background-size: cover;
+      color: #fff;
+      border-radius: 0px;
+      box-shadow: #000 0px 11px 15px 0px;
+    }
+    .card-f .overlay{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 21rem;
+      height: 100%;
+      background: rgba(153, 142, 248, 0.8);
+      opacity: 0;
+      transition: 0.1s;
+      border-radius: 0px;
+    }
+    .card-f:hover .overlay{
+      opacity: 1;
+    }
+    .card-f .btn, .card h1{
+      transition: 0.1s;
+      transform: translateY(-20px);
+    }
+    .card-f:hover .btn .card-f:hover h1 {
+      transform: translateY(0);
+    }
+    .card-g{
+      width: 21em;
+      height: 25em;
+      position: relative;
+      margin: 0;
+      background-image: url('images/m12.jpg');
+      background-size: cover;
+      color: #fff;
+      border-radius: 0px;
+      box-shadow: #000 0px 11px 15px 0px;
+    }
+    .card-g .overlay{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 21rem;
+      height: 100%;
+      background: rgba(255, 123, 0, 0.8);
+      opacity: 0;
+      transition: 0.1s;
+      border-radius: 0px;
+    }
+    .card-g:hover .overlay{
+      opacity: 1;
+    }
+    .card-g .btn, .card h1{
+      transition: 0.1s;
+      transform: translateY(-20px);
+    }
+    .card-g:hover .btn .card-g:hover h1 {
+      transform: translateY(0);
+    }
+    .card-h{
+      width: 21em;
+      height: 25em;
+      position: relative;
+      margin: 0;
+      background-image: url('images/m11.jpg');
+      background-size: cover;
+      color: #fff;
+      border-radius: 0px;
+      box-shadow: #000 0px 11px 15px 0px;
+    }
+    .card-h .overlay{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 21rem;
+      height: 100%;
+      background: rgba(255, 123, 0, 0.8);
+      opacity: 0;
+      transition: 0.1s;
+      border-radius: 0px;
+    }
+    .card-h:hover .overlay{
+      opacity: 1;
+    }
+    .card-h .btn, .card h1{
+      transition: 0.1s;
+      transform: translateY(-20px);
+    }
+    .card-h:hover .btn .card-h:hover h1 {
+      transform: translateY(0);
+    }
+    .card-i{
+      width: 21em;
+      height: 25em;
+      position: relative;
+      margin: 0;
+      background-image: url('images/m10.jpg');
+      background-size: cover;
+      color: #fff;
+      border-radius: 0px;
+      box-shadow: #000 0px 11px 15px 0px;
+    }
+    .card-i .overlay{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 21rem;
+      height: 100%;
+      background: rgba(122, 117, 112, 0.8);
+      opacity: 0;
+      transition: 0.1s;
+      border-radius: 0px;
+    }
+    .card-i:hover .overlay{
+      opacity: 1;
+    }
+    .card-i .btn, .card h1{
+      transition: 0.1s;
+      transform: translateY(-20px);
+    }
+    .card-i:hover .btn .card-i:hover h1 {
+      transform: translateY(0);
+    }
+  
+  .home .home-banner-7,
+    .home .home-banner-8{
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: 90% center;
+      min-height: 600px;
+      position: relative;
+    }
+    .home .home-banner-7{
+      background-image: url(images/b1.jpg);
+    }
+    .home .home-banner-8{
+      background-image: url(images/b.jpg);
+    }
+    .home .home-banner .home-banner-text-7{
+      position: absolute;
+      top:60%;
+      left:70%;
+      color: rgb(255, 41, 41);
+    }
+    .home .home-banner .home-banner-text-8{
+      position: absolute;
+      top:10%;
+      left: 80%;
+      color:black;}
+      .zoom:hover{
+        transform: scale(1.1);
+        display: block;
+        transition: 1s;
+        overflow: hidden;
+      }
+      .home .home-banner-10,
+    .home .home-banner-11{
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: 90% center;
+      min-height: 400px;
+      position: relative;
+    }
+    .home .home-banner-10{
+      background-image: url(images/c5.jpg);
+    }
+    .home .home-banner-11{
+      background-image: url(images/c6.jpg);
+    }
+    .home .home-banner .home-banner-text-7{
+      position: absolute;
+      top:60%;
+      left:70%;
+      color: rgb(255, 41, 41);
+    }
+    .home .home-banner .home-banner-text-8{
+      position: absolute;
+      top:10%;
+      left: 80%;
+      color:black;}
+
+      .home .home-banner-12,
+      .home .home-banner-13{
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 90% center;
+        min-height: 630px;
+        position: relative;
+      }
+      .home .home-banner-12{
+        background-image: url(images/fi.jpg);
+      }
+      .home .home-banner-13{
+        background-image: url(images/13.jpg);
+      }
+      .home .home-banner .home-banner-text-12{
+        position: absolute;
+        top:10%;
+        left:62%;
+        color: rgb(0, 0, 0);
+      }
+      .home .home-banner .home-banner-text-13{
+        position: absolute;
+        top:15%;
+        left: 62%;
+        color:white;}
+        
